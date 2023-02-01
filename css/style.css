@@ -87,3 +87,22 @@ a{
 }
 
 /*clients*/
+
+#clients{
+    width: 100%;
+    background: #eee;
+    color: #111;
+    padding: 50px;
+}
+.client{
+    width: 25%;
+    display: inline-block;
+}
+#clients-container{
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 15px;
+}
+
+/*About*/
