@@ -133,3 +133,24 @@ a{
 }
 
 /*Product*/
+
+#product{
+    width: 100%;
+    padding: 50px;
+}
+#product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#items{
+    width: 650px;
+}
+#items .item{
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+/*Testimonials*/
