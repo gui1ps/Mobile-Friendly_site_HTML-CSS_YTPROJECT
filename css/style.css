@@ -60,3 +60,30 @@ a{
 #logo{
     font-size: 2rem;
 }
+
+/*showcase*/
+
+#showcase{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#eee;
+    background: url(/img/showcase.jpg) no-repeat center center/cover;
+
+    /*overlay*/
+    background-color: rgba(0, 0, 0,0.5);
+    background-blend-mode: color;
+}
+#showcase-container{
+    text-align: center;
+}
+#showcase-container h2{
+    font-size: 2.5rem;
+}
+#showcase-container p{
+    font-size: 1.2rem;
+    padding: 7px;
+}
+
+/*clients*/
