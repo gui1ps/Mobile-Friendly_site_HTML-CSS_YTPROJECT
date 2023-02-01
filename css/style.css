@@ -106,3 +106,30 @@ a{
 }
 
 /*About*/
+
+#features{
+    background: #222;
+    color: #eee;
+    padding: 50px;
+    width: 100%;
+}
+#feature-container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    border-radius: 5px;
+    padding: 20px;
+}
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/*Product*/
